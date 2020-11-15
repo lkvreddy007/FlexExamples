@@ -1,0 +1,79 @@
+<!doctype html>
+<title>FlexCard</title>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+</style>
+
+<main class="cards">
+  <article class="card">
+    <img src="/assets/elephant.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Elephant</h3>
+      <p>Elephants have very great memory power.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="/assets/lion.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Lions</h3>
+      <p>Even though Lions are smaller than Bengal TIgers,they are called Kings of Forest.</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="/assets/panda.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Pandas</h3>
+      <p>Pandas are near to extinction</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="/assets/rhino.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Rhinos</h3>
+      <p>There's only one white Rhino is left in the world.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="/assets/tiger.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Tigers</h3>
+      <p>Sometimes tigers eat grass.</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="/assets/wolf.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Wolves</h3>
+      <p>Are dire wolves predecessors of siberian huskies?</p>
+      <button>Read more</button>
+    </div>
+  </article>
+</main>

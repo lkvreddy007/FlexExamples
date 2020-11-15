@@ -1,0 +1,59 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outcol1 {
+    background: salmon;
+    flex: 1;
+  }
+  .outcol2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .incol {
+    flex: 4;
+  }
+  .row article {
+    min-height: 60vh;
+  }
+  .row aside {
+    background: wheat;
+    flex: 1;
+  }
+  header, footer {
+    background: aquamarine;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <nav class="outcol1"><h2>Nav</h2></nav>
+  <div class="outcol2">
+  	<header><h2>Header</h2></header>
+    <div class="row">
+      <div class="incol">
+    	<article>
+            <h1>Article</h1>
+            <p>Capgemini SE is a French multinational corporation that provides consulting, technology, professional, and outsourcing services. It is headquartered in Paris, France. Capgemini has over 270,000 employees in over 50 countries, of whom nearly 120,000 are in India.</p>
+        </article>
+  		<footer><h2>Footer</h2></footer>
+      </div>
+    	<aside><h2>Aside</h2></aside>
+    </div>
+  </div>
+</body>
